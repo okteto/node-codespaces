@@ -1,4 +1,4 @@
-FROM okteto:1.13.4 as okteto
+FROM okteto/okteto:1.13.4 as okteto
 # [Choice] Node.js version: 14, 12, 10
 ARG VARIANT="14-buster"
 FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
