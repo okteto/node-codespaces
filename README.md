@@ -3,7 +3,9 @@
 GitHub CodeSpaces lets you deploy preconfigured cloud-based development environments at the touch of a button. Okteto let's you develop your applications using realistic development environments directly in Kubernetes. Put them together to build a true Clod Native Development experience 🚀
 
 
-To try it out, start by deploying your CodeSpace.
+## Deploy your CodeSpace
+
+To try it out, go [to this GitHub repository](https://github.com/rberrelleza/node-codespaces), click on the `code` button, select the `code spaces` tab, and click on the `New codespace` button to deploy your first codespace.
 
 
 While the CodeSpace starts, log in to your Okteto Cloud account (or create one, it's free), and create a personal token. 
