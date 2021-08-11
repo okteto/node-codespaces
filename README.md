@@ -1,6 +1,6 @@
-# Cloud Native Development Environments with GitHub CodeSpaces and Okteto
+# Cloud Native Development Environments with GitHub Codespaces and Okteto
 
-GitHub CodeSpaces lets you deploy preconfigured cloud-based development environments at the touch of a button. Okteto let's you develop your applications using realistic development environments directly in Kubernetes. Put them together to build a true Clod Native Development experience 🚀
+GitHub Codespaces lets you deploy preconfigured cloud-based development environments at the touch of a button. Okteto let's you develop your applications using realistic development environments directly in Kubernetes. Put them together to build a true Clod Native Development experience 🚀
 
 
 ## Deploy your CodeSpace
@@ -32,7 +32,7 @@ Head over to Okteto Cloud, and click on the endpoint of your application to chec
 
 ## Cloud Native Development
 
-Now, let's make a change on the app. But instead of changing the code in CodeSpaces and then redeploying the application like we normally do, we are going to develop it directly in Okteto. To do this, go to back to the terminal, navigate to the `frontend` folder, and then run `okteto up`.  
+Now, let's make a change on the app. But instead of changing the code in Codespaces and then redeploying the application like we normally do, we are going to develop it directly in Okteto. To do this, go to back to the terminal, navigate to the `frontend` folder, and then run `okteto up`.  
 
 Running  `okteto up` will, among other things, synchronize the file system in your CodeSpace with the one in your application's container and run your application in hot reload mode. Anytime you change a file in your IDE, the change will be automatically synchronized, and the node process will hot reload it. 
 
@@ -54,11 +54,12 @@ Save, go to the application's tab, and reload. Boom 💥, the changes are alread
 
 ## Conclusion
 
-This is a simpl example of how you can combine the power of GitHub CodeSpaces and Okteto to create a truly cloud-native development environment. By combining them together you are able to:
+This is a simple example of how you can combine the power of GitHub Codespaces and Okteto to create a truly cloud-native development environment. By combining them together you are able to:
 
 1. Deploy a browser-based IDE with your code, credentials, and all your dependencies already preinstalled. 
 2. Deploy a realistic copy of your application, using the same configuration that you would use in production. 
-3. Get the fastest possible developer loop.
+3. Get the fastest possible developer loop between your IDE and your application. 
+4. The certainty that if it works in Okteto, it works in production.
 
 Okteto works with any IDE, any tool, and any stack. To learn more head over to https://okteto.com and deploy your own cloud native development environment in seconds!
 
