@@ -48,7 +48,9 @@ Head back to the browser, reload the page, and see if you notice any differences
 
 Cool no? Let's do it one more time. Go back to [frontend/src/App.jsx](frontend/src/App.jsx) in your CodeSpace, and change line 86 to be like this:
 
+```
 <TitleList title={`Keep watching for ${session.name}`} titles={watching.data} loaded={watching.loaded} />
+```
 
 Save, go to the application's tab, and reload. Boom 💥, the changes are already applied. 
 
