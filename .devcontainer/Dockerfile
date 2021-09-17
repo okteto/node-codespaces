@@ -1,4 +1,4 @@
-FROM okteto/okteto:1.13.4 as okteto
+FROM okteto/okteto:1.13.11 as okteto
 FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:14
 
 COPY --from=okteto /usr/local/bin/okteto /usr/local/bin/okteto

@@ -11,12 +11,12 @@ jobs:
       uses: actions/checkout@master
 
     - name: Login
-      uses: okteto/login@master
+      uses: okteto/login@latest
       with:
         token: ${{ secrets.OKTETO_TOKEN }}
 
     - name: Deploy preview environment
-      uses: okteto/deploy-preview@master
+      uses: okteto/deploy-preview@latest
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
